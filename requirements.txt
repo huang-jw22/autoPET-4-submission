@@ -1,0 +1,10 @@
+SimpleITK==2.4.1
+scikit-learn==1.6.0
+scipy==1.15.2
+numpy==1.26.4
+
+cupy-cuda12x
+cucim
+pynvml
+connected-components-3d
+nibabel
