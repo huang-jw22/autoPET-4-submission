@@ -1,6 +1,8 @@
-# AutoPET IV Challenge: Final Submission
+# [autoPET IV Challenge (Task I) Winning Solution] from Team BIRTH
 
-This repository contains the code and models used for the final submission in the **AutoPET IV Challenge**. 
+🏆 Our method won **the 1st place** in the [MICCAI 2025 autoPET IV Challenge](https://autopet-iv.grand-challenge.org/autopet-iv/)! 🏆
+
+This repository contains the code and models used for our winning solution to the **autoPET IV Challenge** Task I. For detailed method description, please refer to our preprint paper: &nbsp; [![arXiv](https://img.shields.io/badge/arXiv-2509.02402-b31b1b.svg)](https://arxiv.org/abs/2509.02402)
 
 ## Overview
 In autoPET IV challenge (Task I), we primarily investigated the incorporation of human guidance for lesion segmentation in PET/CT. Inspired by top-performing teams in preceding challenges, our method adopts an integrated pipeline, including Tracer Classification, Lesion Segmentation, Organ Supervision and Post-processing. To efficiently leverage iterative interactions and progressively enhance segmentation accuracy, we explored stochastic click sampling strategies during training.
